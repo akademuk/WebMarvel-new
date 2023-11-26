@@ -17,6 +17,10 @@
     animation: sk-rotateplane 1.2s infinite ease-in-out;
 }
 
+body {
+    font-display: optional;
+}
+
 @-webkit-keyframes sk-rotateplane {
     0% {
         -webkit-transform: perspective(120px)
