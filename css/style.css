@@ -474,6 +474,14 @@ h6,
     transition: .5s;
 }
 
+.team-img {
+    height: 400px;
+}
+.team-img img {
+    height: 100%;
+    object-fit: cover;
+}
+
 .team-item:hover .team-img img,
 .blog-item:hover .blog-img img {
     transform: scale(1.15);
