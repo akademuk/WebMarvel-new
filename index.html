@@ -44,7 +44,7 @@
 <body>
     <!-- Spinner Start -->
     <div id="spinner" class="show bg-white position-fixed translate-middle w-100 vh-100 top-50 start-50 d-flex align-items-center justify-content-center">
-        <div class="spinner"></div>
+        <div class="spinner" aria-label="spinner"></div>
     </div>
     <!-- Spinner End -->
 
@@ -54,9 +54,9 @@
         <div class="row gx-0">
             <div class="col-lg-8 text-center text-lg-start mb-2 mb-lg-0">
                 <div class="d-inline-flex align-items-center" style="height: 45px;">
-                    <small class="me-3 text-light"><i class="fa fa-map-marker-alt me-2"></i>Україна</small>
+                    <small class="me-3 text-light"><i class="fa fa-map-marker-alt me-2" aria-label="Україна"></i>Україна</small>
                     <a href="tel:+380938497149" class="me-3 text-light" aria-label="+38 093 849 71 49"><i class="fa fa-phone-alt me-2" accesskey="header-phone"></i>+38 093 849 71 49</a>
-                    <a href="mailto:webmarvelstudio@gmail.com" class="text-light" aria-label="webmarvelstudio@gmail.com"><i class="fa fa-envelope-open me-2" accesskey="header-email"></i>webmarvelstudio@gmail.com</a>
+                    <a href="mailto:webmarvelstudio@gmail.com" class="text-light" aria-label="webmarvelstudio@gmail.com"><i class="fa fa-envelope-open me-2" accesskey="header-email" aria-label="webmarvelstudio@gmail.com"></i>webmarvelstudio@gmail.com</a>
                 </div>
             </div>
             <div class="col-lg-4 text-center text-lg-end">
@@ -77,16 +77,16 @@
     <div class="container-fluid position-relative p-0">
         <nav class="navbar navbar-expand-lg navbar-dark px-5 py-3 py-lg-0">
             <a href="index.html" class="navbar-brand p-0" aria-label="WebMarvel" accesskey="header-logo">
-                <i class="fa fa-user-tie me-2"></i>WebMarvel
+                <i class="fa fa-user-tie me-2" aria-label="WebMarvel"></i>WebMarvel
             </a>
-            <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarCollapse">
-                <span class="fa fa-bars"></span>
+            <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarCollapse" aria-label="Навігація">
+                <span class="fa fa-bars" aria-label="Навігація"></span>
             </button>
             <div class="collapse navbar-collapse" id="navbarCollapse">
                 <div class="navbar-nav ms-auto py-0">
                     <a href="index.html" class="nav-item nav-link active" aria-label="Головна" accesskey="header-index">Головна</a>
                     <a href="about.html" class="nav-item nav-link" aria-label="Про нас" accesskey="header-about">Про нас</a>
-                    <a href="service.html" class="nav-item nav-link" aria-label="Послуги" accesskey="header-service">Послуги</a>
+                    <a href="service.html" class="nav-item nav-link" aria-label="Послуги"  accesskey="header-service">Послуги</a>
                     <div class="nav-item dropdown">
                         <a href="blog.html" class="nav-link" aria-label="Блог" accesskey="header-blog">Блог</a>
                     </div>
@@ -113,7 +113,7 @@
                         <div class="p-3" style="max-width: 900px;">
                             <h1 class="display-1 text-white mb-md-4 animated zoomIn">Професійне створення сайтів у WebMarvel</h1>
                             <a href="#form" class="btn btn-primary py-md-3 px-md-5 me-3 animated slideInLeft" aria-label="Безкоштовна консультація" accesskey="header-form">Безкоштовна консультація</a>
-                            <a href="contact.html" class="btn btn-outline-light py-md-3 px-md-5 animated slideInRight" aria-label="Контакти" accesskey="header-contact">Контакти</a>
+                            <a href="contact.html" class="btn btn-outline-light py-md-3 px-md-5 animated slideInRight" aria-label="Контакти" accesskey="main-contact">Контакти</a>
                         </div>
                     </div>
                 </div>
@@ -129,12 +129,12 @@
                 </div>
             </div>
             <button class="carousel-control-prev" type="button" data-bs-target="#header-carousel"
-                data-bs-slide="prev">
+                data-bs-slide="prev" aria-label="Попередній">
                 <span class="carousel-control-prev-icon" aria-hidden="true"></span>
                 <span class="visually-hidden">Попередній</span>
             </button>
             <button class="carousel-control-next" type="button" data-bs-target="#header-carousel"
-                data-bs-slide="next">
+                data-bs-slide="next" aria-label="Далі">
                 <span class="carousel-control-next-icon" aria-hidden="true"></span>
                 <span class="visually-hidden">Далі</span>
             </button>
@@ -153,7 +153,7 @@
                 <div class="modal-body d-flex align-items-center justify-content-center">
                     <div class="input-group" style="max-width: 600px;">
                         <input type="text" class="form-control bg-transparent border-primary p-3" placeholder="Type search keyword">
-                        <button class="btn btn-primary px-4"><i class="bi bi-search"></i></button>
+                        <button class="btn btn-primary px-4" aria-label="search"><i class="bi bi-search"></i></button>
                     </div>
                 </div>
             </div>
@@ -520,7 +520,7 @@
                                     <textarea class="form-control bg-light border-0" rows="3" placeholder="Повідомлення"></textarea>
                                 </div>
                                 <div class="col-12">
-                                    <button class="btn btn-dark w-100 py-3" type="submit">Відправити</button>
+                                    <button class="btn btn-dark w-100 py-3" type="submit" aria-label="Відправити">Відправити</button>
                                 </div>
                             </div>
                         </form>
@@ -742,7 +742,7 @@
                         <form>
                             <div class="input-group">
                                 <input type="text" class="form-control border-white p-3" placeholder="Your Email">
-                                <button class="btn btn-dark">Відправити</button>
+                                <button class="btn btn-dark" aria-label="Відправити">Відправити</button>
                             </div>
                         </form>
                     </div>
